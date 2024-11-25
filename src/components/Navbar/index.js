@@ -1,13 +1,41 @@
+// import './index.css'
+
+// const Navbar = () => {
+//     return(
+//         <>
+//         <nav className = "nav-con">
+//             <a href = "#logo" className = "logo-con">Navbar</a>
+//             {/* <ul className='nav-items-con'>
+//                 <li> <a href = "#"> Account </a> </li>
+//             </ul> */}
+//         </nav>
+//         </>
+//     )
+// }
+
+// export default Navbar
+
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 import './index.css'
 
 const Navbar = () => {
     return(
         <>
         <nav className = "nav-con">
-            <a href = "#logo" className = "logo-con">Navbar</a>
-            {/* <ul className='nav-items-con'>
-                <li> <a href = "#"> Account </a> </li>
-            </ul> */}
+            <div className = "nav-part-1">
+                <a href = "#project"> Dashboard </a>
+                {/* <a href = "#"> Reports </a>
+                <a href = "#"> Settings </a> */}
+            </div>
+            <div className = "nav-part-2">
+                <FaFacebook/>
+                <FaSquareXTwitter/>
+                <FaLinkedin/>
+                <FaInstagram/>
+            </div>
         </nav>
         </>
     )
