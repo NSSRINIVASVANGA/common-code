@@ -1,0 +1,13 @@
+.home-con{
+    height: 100vh;
+}
+
+.main-con{
+    display: flex;
+    height: 95vh;
+}
+
+.content-con{
+    height: 95vh;
+    width: 80%;
+}

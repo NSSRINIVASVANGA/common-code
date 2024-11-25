@@ -1,0 +1,14 @@
+.nav-con{
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items-con{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
