@@ -36,3 +36,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+.nav-con a{
+    color: #000000;
+    text-decoration: none;
+}
