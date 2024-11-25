@@ -27,14 +27,12 @@ const Navbar = () => {
         <nav className = "nav-con">
             <div className = "nav-part-1">
                 <a href = "#project"> Dashboard </a>
-                {/* <a href = "#"> Reports </a>
-                <a href = "#"> Settings </a> */}
             </div>
             <div className = "nav-part-2">
-                <FaFacebook/>
-                <FaSquareXTwitter/>
-                <FaLinkedin/>
-                <FaInstagram/>
+                <a href = "#fb"><FaFacebook/></a>
+                <a href = "#twitter"><FaSquareXTwitter/></a>
+                <a href = "#linkedin"><FaLinkedin/></a>
+                <a href = "#insta"><FaInstagram/></a>
             </div>
         </nav>
         </>
