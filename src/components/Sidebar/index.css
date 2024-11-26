@@ -2,6 +2,8 @@
     padding-left: 0px;
     list-style-type: none;
     color : #ffffff;
+    width: 20%;
+    background-color: #16113A;
 }
 
 .list-item{
@@ -11,35 +13,18 @@
     padding: 10px;
     color: #ffffff;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .list-item:hover{
     background-color: blueviolet;
     color: #ffffff;
-}
-
-.sidebar-con{
-    width: 20%;
-    background-color: #16113A;
-    text-align: left;
-    /* padding: 10px; */
-    /* backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.5); */
-}
-
-.hr-line{
-    border-color: #ffffff;
+    border-radius: 10px;
 }
 
 .logo{
     margin-bottom:20px;
     width: 20px;
-}
-
-.selected{
-    background-color: blueviolet;
-    border-radius: 10px;
 }
 
 .link-item{
